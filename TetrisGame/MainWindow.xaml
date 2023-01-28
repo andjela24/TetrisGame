@@ -55,6 +55,38 @@
                    Margin="20"
                    Width="125"/>
         </StackPanel>
+        <StackPanel Grid.Row="1"
+            Grid.Column="0"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Left"
+                    Background="#101010">
+
+            <TextBlock Text="Instructions"
+               TextAlignment="Center"
+               FontSize="14"
+               Margin="0,0,0,10">
+                <TextBlock.TextDecorations>
+                    <TextDecorationCollection>
+                        <TextDecoration Location="Underline"></TextDecoration>
+                    </TextDecorationCollection>
+                </TextBlock.TextDecorations>
+            </TextBlock>
+            <TextBlock Text="Rotate - Y / ↑"
+               TextAlignment="Center"
+               FontSize="14"/>
+            <TextBlock Text="Hold - C"
+               TextAlignment="Center"
+               FontSize="14"/>
+            <TextBlock Text="Speed up - Space"
+               TextAlignment="Center"
+               FontSize="14"/>
+            <TextBlock Text="Left  ←"                       
+               TextAlignment="Center"
+               FontSize="14"/>
+            <TextBlock Text="Right  →"                       
+               TextAlignment="Center"
+               FontSize="14"/>
+        </StackPanel>
 
         <StackPanel Grid.Row="1"
                     Grid.Column="2"
